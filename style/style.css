@@ -1,0 +1,38 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+
+.navbar {
+    /*background-image:linear-gradient(to bottom, rgba(59, 58, 48, 0.2), rgba(59, 58, 48, 0.2));*/
+    background-color: rgba(59, 58, 48, 0.4);
+}
+
+/*.indexPic1 {
+    height: auto;
+    width: 100%;
+}*/
+
+.banner {
+    height: 300px;
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(18, 24, 32);
+    color: white;
+}
+
+h2.header {
+    position: absolute;
+    top: 24%;
+    text-align: center;
+    width: 100%;
+}
+
+img.header {
+    position: absolute;
+    top: 14%;
+    text-align: center;
+    width: 100%;
+}
