@@ -48,13 +48,14 @@
     </header>
     <main>
         <!-- Top Title -->
-        <div style="background-image: url(image/modely/model.jpg); background-color: rgb(18, 24, 32); height: 300px;">
+        <div class="banner">
             <img class="header" src="image/elektroWhite2.svg" height="50" width="50">
-            <h2 class="header" style="color: white;">Contact Us</h2>
+            <h2 class="header text-white">Contact Us</h2>
         </div>
         <!-- Map -->
         <div class="container-fluid">
             <div class="d-flex flex-wrap justify-content-center">
+                <!-- central -->
                 <div class="card map-card m-5" style="width: 23rem;">
                     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                         <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -64,9 +65,9 @@
                             <a class="btn btn-floating btn-lg living-coral text-white float-end" style="margin-right: .75rem;">More</a>
                         </div>
                         <div class="card-map-bg px-4 pb-4 pt-3-5 text-white">
-                            <h5 class="card-title h5 living-coral-text">Central Park Zoo</h5>
+                            <h5 class="card-title h5 living-coral-text">Jakarta Elekro</h5>
                             <div class="d-flex justify-content-between living-coral-text">
-                                <h6 class="card-subtitle font-weight-light">A place to relax</h6>
+                                <h6 class="card-subtitle font-weight-light">Central dealer</h6>
                             </div>
                             <hr>
                             <table class="table table-borderless text-white">
@@ -90,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <section class="my-5" style="max-width: 23rem;"> -->
+                <!-- Nearest -->
                 <div class="card map-card m-5" style="width: 23rem;">
                     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                         <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -100,10 +101,9 @@
                             <a class="btn btn-floating btn-lg living-coral text-white float-end" style="margin-right: .75rem;">More</a>
                         </div>
                         <div class="card-map-bg px-4 pb-4 pt-3-5 text-white">
-                            <h5 class="card-title h5 living-coral-text">Central Park Zoo</h5>
+                            <h5 class="card-title h5 living-coral-text">Surakarta Elektro Dealer</h5>
                             <div class="d-flex justify-content-between living-coral-text">
-                                <h6 class="card-subtitle font-weight-light">A place to relax</h6>
-                                <h6 class="font-small font-weight-light mt-n1">25 min</h6>
+                                <h6 class="card-subtitle font-weight-light">Nearest dealer</h6>
                             </div>
                             <hr>
                             <hr>
@@ -128,7 +128,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- </section> -->
             </div>
         </div>
         <!-- Contact Us -->
@@ -242,7 +241,7 @@
 
     card.addEventListener('click', () => {
         cardBody.classList.toggle('closed')
-    })
+    });
     </script>
 </body>
 
