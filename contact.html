@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Electro</title>
+    <link rel="shortcut icon" href="image/elektroWhite2.svg" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initialscale=1">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
@@ -15,9 +18,12 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Electro</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/elektroWhite2.svg" alt="" width="35" height="35">
+                    <span style="color: #FEC400;">E</span>lectro
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,10 +47,166 @@
         </nav>
     </header>
     <main>
-        
+        <!-- Top Title -->
+        <div style="background-image: url(image/modely/model.jpg); background-color: rgb(18, 24, 32); height: 300px;">
+            <img class="header" src="image/elektroWhite2.svg" height="50" width="50">
+            <h2 class="header" style="color: white;">Contact Us</h2>
+        </div>
+        <!-- Map -->
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="card map-card m-5" style="width: 23rem;">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body closed px-0">
+                        <div class="button px-2 mt-3">
+                            <a class="btn btn-floating btn-lg living-coral text-white float-end" style="margin-right: .75rem;">More</a>
+                        </div>
+                        <div class="card-map-bg px-4 pb-4 pt-3-5 text-white">
+                            <h5 class="card-title h5 living-coral-text">Central Park Zoo</h5>
+                            <div class="d-flex justify-content-between living-coral-text">
+                                <h6 class="card-subtitle font-weight-light">A place to relax</h6>                            
+                            </div>
+                            <hr>
+                            <table class="table table-borderless text-white">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="px-0 pb-3 pt-2">
+                                            <span class="material-icons">place</span>
+                                        </th>
+                                        <td class="pb-3 pt-2">East 64th Street, New York, NY 10021, US</td>
+                                    </tr>
+                                    <tr class="mt-2">
+                                        <th scope="row" class="px-0 pb-3 pt-2">
+                                            <span class="material-icons">
+                                                schedule
+                                            </span>
+                                        </th>
+                                        <td class="pb-3 pt-2">Opens 10 AM - 5 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- <section class="my-5" style="max-width: 23rem;"> -->
+                <div class="card map-card m-5" style="width: 23rem;">
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body closed px-0">
+                        <div class="button px-2 mt-3">
+                            <a class="btn btn-floating btn-lg living-coral text-white float-end" style="margin-right: .75rem;">More</a>
+                        </div>
+                        <div class="card-map-bg px-4 pb-4 pt-3-5 text-white">
+                            <h5 class="card-title h5 living-coral-text">Central Park Zoo</h5>
+                            <div class="d-flex justify-content-between living-coral-text">
+                                <h6 class="card-subtitle font-weight-light">A place to relax</h6>
+                                <h6 class="font-small font-weight-light mt-n1">25 min</h6>
+                            </div>
+                            <hr>
+                            <hr>
+                            <table class="table table-borderless text-white">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="px-0 pb-3 pt-2">
+                                            <span class="material-icons">place</span>
+                                        </th>
+                                        <td class="pb-3 pt-2">East 64th Street, New York, NY 10021, US</td>
+                                    </tr>
+                                    <tr class="mt-2">
+                                        <th scope="row" class="px-0 pb-3 pt-2">
+                                            <span class="material-icons">
+                                                schedule
+                                            </span>
+                                        </th>
+                                        <td class="pb-3 pt-2">Opens 10 AM - 5 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- </section> -->
+            </div>
+        </div>
+        <!-- Contact Us -->
+        <div class="d-flex flex-wrap m-5 text-center justify-content-center">
+            <div class="card text-white m-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <div class="contact-card-icon shadow-1-strong">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Calls</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <path data-name="layer1" d="M58.9 47l-10.4-6.8a4.8 4.8 0 0 0-6.5 1.3c-2.4 2.9-5.3 7.7-16.2-3.2S19.6 24.4 22.5 22a4.8 4.8 0 0 0 1.3-6.5L17 5.1c-.9-1.3-2.1-3.4-4.9-3S2 6.6 2 15.6s7.1 20 16.8 29.7S39.5 62 48.4 62s13.2-8 13.5-10-1.7-4.1-3-5z" fill="none" stroke="#fec400" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-body pt-5">
+                    <h5 class="card-title">Call</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white m-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <div class="contact-card-icon shadow-1-strong">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>At Sign @</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <circle data-name="layer2" cx="31" cy="32" r="14" fill="none" stroke="#fec400" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></circle>
+                            <path data-name="layer1" d="M45 18v20c0 10.9 17 12.3 17-6M46 58.5A30 30 0 1 1 62 32" fill="none" stroke="#fec400" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-body pt-5">
+                    <h5 class="card-title">Email</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white m-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <div class="contact-card-icon shadow-1-strong">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Instagram</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <path data-name="layer2" d="M44.122 2H19.87A17.875 17.875 0 0 0 2 19.835v24.2a17.875 17.875 0 0 0 17.87 17.834h24.252A17.875 17.875 0 0 0 62 44.034v-24.2A17.875 17.875 0 0 0 44.122 2zM55.96 44.034a11.825 11.825 0 0 1-11.838 11.812H19.87A11.825 11.825 0 0 1 8.032 44.034v-24.2A11.825 11.825 0 0 1 19.87 8.022h24.252A11.825 11.825 0 0 1 55.96 19.835zm0 0" fill="none" stroke="#fec400" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></path>
+                            <path data-name="layer1" d="M32 16.45a15.484 15.484 0 1 0 15.514 15.484A15.519 15.519 0 0 0 32 16.45zm0 24.95a9.461 9.461 0 1 1 9.482-9.461A9.472 9.472 0 0 1 32 41.4zm19.263-24.834a3.719 3.719 0 1 1-3.719-3.711 3.714 3.714 0 0 1 3.719 3.711zm0 0" fill="none" stroke="#fec400" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-body pt-5">
+                    <h5 class="card-title">Instagram</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white m-3" style="max-width: 18rem;">
+                <div class="card-header">
+                    <div class="contact-card-icon shadow-1-strong">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Facebook</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <path data-name="layer1" d="M39.312 13.437H47V2h-9.094C26.938 2.469 24.688 8.656 24.5 15.125v5.719H17V32h7.5v30h11.25V32h9.281l1.781-11.156H35.75v-3.469a3.714 3.714 0 0 1 3.562-3.938z" fill="none" stroke="#fec400" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card-body pt-5">
+                    <h5 class="card-title">facebook</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        
     </footer>
+    <script type="text/javascript">
+    const card = document.querySelector('.map-card');
+    const cardBody = card.querySelector('.card-body')
+
+    card.addEventListener('click', () => {
+        cardBody.classList.toggle('closed')
+    })
+    </script>
 </body>
+
 </html>
