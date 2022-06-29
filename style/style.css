@@ -29,7 +29,6 @@ h2.header {
 img.header {
     position: absolute;
     top: 14%;
-    text-align: center;
     width: 100%;
 }
 
@@ -37,7 +36,25 @@ img.header {
 .navbar-toggler {
     border: 0px;
 }
+
 /*----*/
+
+/*home teks border*/
+.border-teks {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/*vehicle card*/
+.vehicle {
+    width: 18rem;   
+}
+
+.card-vehicle {
+    height: 190px;
+    width: auto;
+}
+
 
 /*contact card*/
 .icon {
@@ -132,3 +149,10 @@ img.header {
 }
 
 /*----*/
+
+@media (max-width:767px) {
+
+    .border-teks {
+        border: 0px solid !important;
+    }
+}
