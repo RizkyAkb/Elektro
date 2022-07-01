@@ -6,4 +6,3 @@ card.addEventListener('click', () => {
     cardBody.classList.toggle('closed')
 });
 /*---*/
-
