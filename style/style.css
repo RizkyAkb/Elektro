@@ -3,6 +3,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
+    font-display: block;
 }
 
 .text-justify {
@@ -77,13 +78,15 @@ a.footer-link:hover {
     border-right: 1px solid black;
 }
 
-/*----*/
-
 .carousel-image {
     width: 100%;
     height: auto;
 }
 
+img.card-img-home{
+    max-width: 100%;
+    max-height: auto;
+}
 
 /*=========For Vehicle Page*/
 /*vehicle card*/
